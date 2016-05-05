@@ -1,0 +1,383 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+/*	color: #868585;
+	background-color: #fdfcfb;*/
+	font-weight: normal;
+	background-image: url(../image/Winter_in_the_mountains.jpg), url(../image/Winter_in_the_mountains.jpg);
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #F3F0F3;
+	background-position: bottom, top;
+	color: #324059;
+	min-width: 300px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*top info======>>>>>>*/
+
+.top-info{
+	background-color: #F3F0F3;
+}
+
+#registration{
+	display: inline-block;
+	line-height: 80px;
+}
+
+#registration ul{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+#registration ul li{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 0 40px;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+#registration ul li:first-child{
+	border-right: 1px solid #A3A3A6;
+}
+
+#basket{
+	padding-left: 70px;
+	line-height: 80px;
+	background-image: url(../image/basket.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+
+
+
+
+/*adres panel====>>>>*/
+address{
+	box-shadow: 0 0 4px .1px #A3A3A6;
+	background-color: #F3F0F3; 
+	margin-bottom: 50px;
+	position: relative;
+	padding: 5px;
+	
+}
+
+#main-logo{
+	position: absolute;
+	left: 50%;
+	top: -60px;
+	z-index: 10;
+	margin-left: -120px;
+}
+
+#right-info ul li{
+	list-style-type: none;
+	font-size: 1.1em;
+	background-image: url(../image/mobile-icons.jpg);
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position: 70px 0px;
+}
+
+#right-info ul li:first-child{
+	margin-bottom: 5px;
+	background-position: 70px -18px;
+}
+#left-info{
+	font-size: 1.2em;
+}
+#left-info span{
+	display: block;
+}
+
+
+
+
+
+
+/* navigation ===>>> */
+.navigation{
+	background-color: #F3F0F3;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 4px .1px #A3A3A6;
+	margin: 0;
+	position: relative;
+}
+
+
+.navbar-right i{
+	display: none;
+	line-height: 50px;
+	font-size: 2em;
+	cursor: pointer;
+	padding: 0 20px;
+}
+
+
+/* ofer and slider panel */
+.offers{
+
+	background-color: #F3F0F3;
+	margin: 0;
+	padding: 20px 0;
+}
+
+
+#right-panel ul li{
+	font-size: 1.2em;
+	list-style-type: none;
+	padding: 20px 0 20px 30px;
+	border-bottom: 1px solid black;
+}
+
+#right-panel ul{
+	padding: 0;
+}
+#right-panel h4{
+	text-transform: uppercase;
+}
+
+
+			/*slider*/
+
+#slider{
+	position: relative;
+}
+#slider img{
+	width: 100%;
+	display: none;
+}
+
+#slider span{
+	position: absolute;
+	color: #A3A3A6;
+	font-size: 4em;
+	cursor: pointer;
+	padding:35% 0;
+	opacity: .6;
+	transition: opacity .2s;
+}
+#slider span:hover{
+	opacity: 1;
+}
+#slider span.glyphicon-chevron-left{
+	left: 20px;
+}
+#slider span.glyphicon-chevron-right{
+	right: 20px;
+}
+
+			/*offers panel*/
+
+
+.offer img{
+	width: 100%;
+	padding-top: 5%;
+}
+.offer {
+	position: relative;
+	padding: 0;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+#left-panel .special-price{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	color: #F3F0F3;
+}
+#left-panel span{
+	position: absolute;
+	height: 30%;
+	bottom: 28px;
+	color: #F3F0F3;
+	font-size: 1.36em;
+	text-shadow: black 1px 1px 1px;
+}
+
+#left-panel ul{
+	position: absolute;
+	width: 100%;
+	background-color: #2F7DBF;
+	height: 30%;
+	bottom: -5px;
+	font-size: 1em;
+	color: #F3F0F3;
+}
+
+#left-panel ul li{
+	display: inline-block;
+	font-size: 2em;
+	padding-left: 3px;
+	position: relative;
+}
+
+#left-panel ul i{
+	display: block;
+	font-size: .5em;
+	position: absolute;
+	left: -5px;
+}
+
+
+/*main content =======>>*/
+
+.main-content{
+	background-color: #F3F0F3;
+	box-shadow: 0 0 4px .1px #A3A3A6;
+	margin-top: 50px;
+}
+
+
+/*footer ====>>*/
+
+.footer{
+	background-color: #F3F0F3;
+	margin-top: 50px;
+}
+
+.top-footer{
+	height: 300px;
+}
+
+.bottom-footer{
+	height: 80px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+	#right-info ul li{
+		background-position: 20px 0px;
+	}
+
+	#right-info ul li:first-child{
+		background-position: 20px -18px;
+	}
+	#right-panel ul li{
+		padding: 15px 0 15px 30px;
+	}
+}
+
+@media only screen and (max-width : 991px){
+	address{
+		padding: 0;
+		margin: 0;
+	}
+	#left-info{
+		display: none;
+	}
+	#right-info{
+		display: none;
+	}
+
+	#main-logo{
+		width: 160px;
+		left: 50%;
+		top: -78px;
+		margin-left: -30px;
+	}
+
+	/*for serch*/
+	#search-form{
+		display: none;
+		position: absolute;
+		right: 0px;
+    	top: 42px;
+		z-index: 10;
+	}
+	.navbar-right i{
+		display: block;
+	}
+
+	#left-panel ul{
+		padding-left: 90px;
+		font-size: 1.5em;
+	}
+	#left-panel .special-price{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 583px){
+	#registration ul li{
+		font-size: 1.1em;
+		padding: 0 5px;
+	}
+	#registration ul li:first-child{
+		padding-left: 10px;
+	}
+
+	#left-panel ul{
+		font-size: .1em;
+		padding-left: 100%;
+	}
+}
+@media only screen and (max-width: 650px){
+	#registration ul li{
+		font-size: 1.1em;
+		padding: 0 5px;
+	}
+	#registration ul li:first-child{
+		padding-left: 10px;
+	}
+	#left-panel ul{
+		font-size: .9em;
+		padding-left: 10%;
+	}
+
+}
+
+@media only screen and (max-width: 428px){
+	#basket{
+		margin-top: 12px;
+		width: 50px;
+		height: 50px;
+	}
+	#basket span{
+		display: none;
+	}
+		#left-panel ul{
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	#search-form{
+		display: block !important;
+		position: static;
+		width: 99%;
+		padding-left: 8%;
+	}
+	.navbar-right i{
+		display: none;
+	}
+	#main-logo{
+		width: 130px;
+		left: 15%;
+		top: 1px;
+	}
+
+}
+
+@media only screen and (min-width : 992px){
+	#search-form{
+		display: block !important;
+		position: static;
+	}
+}
